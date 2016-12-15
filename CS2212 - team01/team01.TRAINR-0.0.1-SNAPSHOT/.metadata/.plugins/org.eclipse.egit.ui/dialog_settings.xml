@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="0" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<item value="C:\Users\jjack\git\team01\.git" key="GitSelectRepositoryPage.lastRepository"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="ssh://jjacks95@repo.gaul.csd.uwo.ca:7999/cs2212_w2016/team01.git"/>
+	</list>
+	<section name="GitImportWizard">
+		<item value="true" key="GitProjectsImportPage.STORE_NESTED_PROJECTS"/>
+	</section>
+</section>
