@@ -1,0 +1,17 @@
+#!/bin/sh
+	X=$0 
+#setting x to position zero so it will output program if no arguments follow
+	echo $X 
+#printing $X which will be all arguments that meet condition
+
+while [ $# -gt 0 ]; do
+#while loop sets condition that position must be greater then zero
+	X=$1
+#set X to position one to print
+	echo $X
+#print position X which will be the first position
+#two shifts will replace position $1 with Position $3 and continue to print position $1 until no arguments are left.
+#this will print all odd arguments because of the double shift.
+	shift
+	shift
+done
