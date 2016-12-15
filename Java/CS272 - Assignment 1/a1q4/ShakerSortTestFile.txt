@@ -1,0 +1,20 @@
+Shaker sort test cases:
+Before sorting:   1,2,3,4,5,6,7,8,9,10,
+After sorting:    1,2,3,4,5,6,7,8,9,10,
+Before sorting:   10,9,8,7,6,5,4,3,2,1,
+After sorting:    1,2,3,4,5,6,7,8,9,10,
+Before sorting:   1,3,2,4,5,7,6,8,10,9,
+After sorting:    1,2,3,4,5,6,7,8,9,10,
+Before sorting:   1,
+After sorting:    1,
+Before sorting:   
+After sorting:    
+
+
+Runtime complexity: Theta(n^2)
+Space complexity: Theta(1)
+
+When n is odd, the right to left pass of the last phase accomplishes nothing.
+
+Advantage over bubblesort: overcomes the problem of "turtles" (for a description of turtles refer to http://en.wikipedia.org/wiki/Bubble_sort) associated with
+bubblesort. However, this does not improve worst-case time complexity which remains O(n^2).

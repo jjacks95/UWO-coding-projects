@@ -1,0 +1,30 @@
+Note: I used a friend list of size 5 rather than 10 for testing.
+
+Enter <first name> <last name>: John Smith
+Enter <first name> <last name>: Daniel Wes
+Enter <first name> <last name>: Joyce Zhang
+Enter <first name> <last name>: Adam Xue
+Enter <first name> <last name>: Wallace Bee
+
+
+Original Friend List:
+Smith, John
+Wes, Daniel
+Zhang, Joyce
+Xue, Adam
+Bee, Wallace
+
+Sorted Friend List:
+Bee, Wallace
+Smith, John
+Wes, Daniel
+Xue, Adam
+Zhang, Joyce
+
+Find friend in the list by first name:
+John is in the list: true
+Daniel is in the list: true
+Joyce is in the list: true
+Adam is in the list: true
+Wallace is in the list: true
+Joe is in the list: false

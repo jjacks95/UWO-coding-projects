@@ -1,0 +1,26 @@
+run:
+Enter Fluid Intelligence(1-15): 15
+Enter Quantitative Reasoning(true, false): true
+Enter short-term memory(good, bad): good
+Enter auditory processing(1-5): 5
+Enter person's age(21-75): 21
+IQ = 105.00
+BUILD SUCCESSFUL (total time: 16 seconds)
+
+run:
+Enter Fluid Intelligence(1-15): 10
+Enter Quantitative Reasoning(true, false): false
+Enter short-term memory(good, bad): bad
+Enter auditory processing(1-5): 1
+Enter person's age(21-75): 75
+IQ = 76.00
+BUILD SUCCESSFUL (total time: 10 seconds)
+
+run:
+Enter Fluid Intelligence(1-15): 1
+Enter Quantitative Reasoning(true, false): false
+Enter short-term memory(good, bad): bad
+Enter auditory processing(1-5): 1
+Enter person's age(21-75): 21
+IQ = 67.00
+BUILD SUCCESSFUL (total time: 9 seconds)
