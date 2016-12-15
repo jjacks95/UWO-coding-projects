@@ -4,8 +4,7 @@
  *This program defines the methods used to output 
  *the Sing Linked List of friends
  * 
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - August 16, 2014.
  */
 package a1q5;

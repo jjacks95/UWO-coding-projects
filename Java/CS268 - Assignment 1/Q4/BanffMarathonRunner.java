@@ -4,8 +4,7 @@
  * using the first program created AddressBook.java. It then outputs, the fastest, and second fastest runners. 
  * As well giving average time of all runners, and listing which runners are above average
  * 
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - July 21, 2014
  */
 package assignment1;

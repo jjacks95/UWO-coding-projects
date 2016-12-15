@@ -4,8 +4,7 @@
  * 
  * Recursion Program given in Unit 7 for Hashing
  * 
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - August 29, 2014.
  */
 

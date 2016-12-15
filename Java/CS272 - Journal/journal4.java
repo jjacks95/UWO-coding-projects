@@ -8,8 +8,7 @@
  * they each have a raised foot. Recursively return the number of "ears" in the bunny 
  * line 1, 2, ... n (without loops or multiplication)
  * 
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - August 28, 2014.
  */
 

@@ -6,8 +6,7 @@
  * int array being printing I am able to use a split method to separate a String
  * by a character within an Array
  * 
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - August 18, 2014.
  *
  */

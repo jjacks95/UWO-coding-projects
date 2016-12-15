@@ -4,8 +4,7 @@
  *it then calculates different interests using the given rates from the question, outputting the report of each runners total accumulated savings
  *based on their different deposits given by the random number generator.
  *  
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - July 25, 2014
  */
 

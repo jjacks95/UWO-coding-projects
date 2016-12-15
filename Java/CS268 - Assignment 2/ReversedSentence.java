@@ -3,8 +3,7 @@
  * This program asks the user to input a string then outputs it backwards
  * specifically designed for sentences
  * 
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - August 19, 2014.
  */
 package assignment2;

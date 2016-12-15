@@ -1,4 +1,0 @@
-#!/bin/sh
-args=${!#}
-echo $args
-

@@ -4,8 +4,7 @@
  * This program is the definition of a Double Linked List
  * to be used in the DLFriendList.java
  * 
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - August 20, 2014.
  */
 package a1q5;

@@ -5,8 +5,7 @@
  * or reverse search (end to beginning) then it tracks which generated 
  * the faster result of finding the string within a random generated list
  *  
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - August 5, 2014.
  */
 package a1q2;

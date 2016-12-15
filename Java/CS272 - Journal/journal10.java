@@ -8,8 +8,7 @@
  * Although not writing this algorithm entirely on my own, I was using this as a 
  * learning tool for the final
  * 
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - September 10, 2014.
  *.
  */

@@ -3,8 +3,7 @@
  * This class is used to define the different variables and methods necessary
  * for TrainTimeTable.java to function
  * 
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - August 20, 2014.
  */
 package assignment2;

@@ -4,8 +4,7 @@
  *This program prompts the user to input 10 friends names, 
  *then sorts the names alphabetically based on last name
  *  
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - August 16, 2014.
  */
 package a1q5;

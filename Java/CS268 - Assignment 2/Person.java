@@ -4,8 +4,7 @@
  * This program is designed to build a list of people's name, height, and weight
  * then calculate their BMI and put them into Categories such as Overweight, Normal, Underweight, etc
  * 
- * Athabasca University ID - 318146
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - August 15, 2014.
  **/
 package assignment2;

@@ -8,8 +8,7 @@
  * and a word to search it will return word found if it there and 
  * word not found if not
  * 
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - September 3, 2014.
  *.
  */

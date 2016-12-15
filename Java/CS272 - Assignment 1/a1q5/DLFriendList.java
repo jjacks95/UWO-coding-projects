@@ -6,8 +6,7 @@
  * by last name, then checks for people's first name in the list giving true 
  * or false for if they are there or not
  *  
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - August 20, 2014.
  */
 package a1q5;

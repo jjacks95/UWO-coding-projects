@@ -7,8 +7,7 @@
  * I have included a scanner import to allow for user input of any pattern 
  * and text
  * 
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - September 5, 2014.
  *.
  */

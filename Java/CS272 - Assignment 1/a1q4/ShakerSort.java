@@ -3,8 +3,7 @@
  * 
  * This program demonstrates an alternative sorting method to bubble sort
  *  
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - August 15, 2014.
  */
 package a1q4;

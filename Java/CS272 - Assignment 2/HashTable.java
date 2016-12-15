@@ -7,8 +7,7 @@
  * and a table with growing that will bend to the input of the program
  * 
  *  
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - September 10, 2014.
  */
 

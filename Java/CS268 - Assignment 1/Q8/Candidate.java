@@ -4,8 +4,7 @@
  *  through different criteria
  *  to output the eligible candidates that the company should consider
  * 
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - July 30, 2014
  */
 

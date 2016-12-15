@@ -8,8 +8,7 @@
  * when order is not important and repetition is allowed,
  * when order is important and repetition is allowed
  *  
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - September 5, 2014.
  */
 

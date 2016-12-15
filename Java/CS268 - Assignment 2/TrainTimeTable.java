@@ -5,8 +5,7 @@
  * (Arrival, Departure, and Day) It also uses scanner utility to allow the user
  * to chose if they wish to see the Schedule
  * 
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - August 20, 2014.
  */
 

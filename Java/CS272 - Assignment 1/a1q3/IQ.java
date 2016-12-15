@@ -5,8 +5,7 @@
  * it follows the specific instructions from the assignment using user input 
  * as well as coded into the program and prints the IQ assumed based on criteria
  *  
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - August 10, 2014.
  */
 package a1q3;

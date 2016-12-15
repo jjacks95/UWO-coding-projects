@@ -3,8 +3,7 @@
  *
  * This is a class to define friends to be used in other classes
  * 
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - August 16, 2014.
  */
 package a1q5;

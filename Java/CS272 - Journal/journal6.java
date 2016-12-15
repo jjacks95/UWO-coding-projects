@@ -5,8 +5,7 @@
  * This program allows for a large amount of information to be stored, 
  * using hash methods to assign a key for easy retrieval
  * 
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - September 1, 2014.
  */
 

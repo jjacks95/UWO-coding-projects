@@ -4,8 +4,7 @@
  *This program prompts the user to input 12 ages and then calculates the average
  * age entered and the difference between the oldest and the youngest age
  *  
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - August 1, 2014.
  */
 package a1q1;

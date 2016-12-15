@@ -3,8 +3,7 @@
  * The purpose of this program is to build an address book including different criteria, such as first middle and last name
  *  that can be called into other programs if necessary later
  *  
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - July 15, 2014
  */
 

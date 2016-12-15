@@ -5,8 +5,7 @@
  * number generator, it rolls the dice accroding the rules of the game for the
  * user 3 times
  * 
- * Athabasca University ID - 318146
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - August 17, 2014.
  **/
 package assignment2;

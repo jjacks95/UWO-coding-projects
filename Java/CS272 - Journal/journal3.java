@@ -5,8 +5,7 @@
  * Using sort algorithms posted in Week 5 and 6 
  * I will implement insertion sort
  * 
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - August 20, 2014.
  */
 

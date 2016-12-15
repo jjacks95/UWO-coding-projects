@@ -7,8 +7,7 @@
  * Using recursion, write a program to compute 
  * the Least Common Multiple (LCM) of two numbers
  * 
- * Athabasca University ID - 3181465
- * Author- Joshua Samuel Jackson
+ * Author- Joshua Jackson
  * Date - September 5, 2014.
  *.
  */
