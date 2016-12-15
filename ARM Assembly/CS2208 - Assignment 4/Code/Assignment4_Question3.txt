@@ -1,0 +1,29 @@
+	AREA a4_question3, CODE, READONLY
+	ENTRY
+	
+	LDR	r1,R			;load working register temporarily representing 'x'
+	LDR	r2,X			;load working register with A
+	LDR	r3,Y			;load working register with B
+	LDR	r4,Z			;load register with C for function
+	LDR	r5,D			;load register with value of D to compare later
+	
+	MUL	r6,r1,r1		;multiply r1 by itself for x squared and store in register
+	MUL	r0,r6,r2		;multiply register and B and store in r0
+	MUL	r7,r1,r3		;multiply register by B 
+	ADD	r7,r7,r4		;add second part of equation by B and accumulate
+	ADD	r0,r0,r7		;add r0 with second part of equation to get total of equation
+	
+	CMP	r0,r5			;compare if r0 and D 
+	MOVGE	r0,r5			;if r0 is greater than or equal to D store D in r0 
+		
+	MOV	r1,#0			;reset r1 to 0 for final result
+	ADD	r1,r0,r0		;r1 is equal to r0 doubled which is r0 plus r0
+halt	B	halt			;to end the program
+		
+X	DCD	5			;define A
+Y	DCD	6			;define B
+Z	DCD	7			;define C
+D	DCD	50			;define D
+R	DCD	3			;constant for register 0	
+	
+	END

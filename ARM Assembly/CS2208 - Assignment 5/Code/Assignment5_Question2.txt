@@ -1,0 +1,29 @@
+	AREA a5_question2, CODE, READONLY
+	ENTRY
+
+	MOV		r1,#N				;set register as exponent value N
+	MOV		r0,#X				;set register as X value		
+	MOV		sp,#stack			;set stack size
+			
+Main	MOV		r3,#1				;set r3 to 1 for the first loop through of multiplication
+	BL		power				;call power fuction
+		
+power	CMP		r1,#0				;compare exponenet and zero
+	MOVEQ		r0,#1				;if N is equal to zero make X equal to 1
+	BEQ		exit				;if equal exit function 
+	SUB		r1,r1,#1			;N minus 1 to decrement exponent count
+	MUL		r2,r0,r3			;multiply x by itself and store in stack 
+	MOV		r3,r2				;store previous multiplication in r3
+	PUSH		{r2}				;push value on to stack
+	BL		power				;recursive call of function within function
+
+exit	MOV		r3,r2				;store in r3 which is the variable result
+Endless	B		Endless				;infinite loop
+
+stack	EQU		0xFF
+N	EQU		4
+X	EQU		2
+result 	EQU		r3				;result will found in register3
+	END
+		
+		

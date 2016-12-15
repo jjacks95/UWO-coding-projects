@@ -1,0 +1,40 @@
+	AREA a4_question1, CODE, READONLY
+	ENTRY   
+
+		ADR 	r0, STRING3    			;Address of first block in destination        
+						
+							;String 1 pointers
+		ADR  	r1, STRING1   			;Address of first string
+		ADR  	r2, EoS    			;Address of EoS1
+		SUBS 	r2, r2,r1  			;Length of string1, counter
+
+							;String 2 pointers
+		ADR 	r3, STRING2    			;Address of second string
+		ADR 	r4, EoS2    			;Address of EoS2
+		SUBS 	r4, r4,r3  			;Length of String2 
+    
+							;First String Loop
+Loop1		LDRB 	r5,[r1],#1    			;Load next bit of "r1" in r5
+		STRB 	r5,[r0],#1    		 	;Store prev bit in memory at r0
+		SUBS 	r2, r2, #1     			;Decrement counter
+		CMP 	r2, #0         			;Compare our counter
+		BNE 	Loop1          			;end loop if counter = 0
+
+							;Second String Loop
+Loop2		LDRB	r5,[r3],#1     			;Load next bit of "r3" to r5
+		STRB	r0,[r5],#1     			;Store this bit in r0
+		SUBS	r4, r4, #1			;Decrement length counter
+		CMP	r4, #0         			;Compare our counter
+		BNE 	Loop2           		;end loop if counter = 0
+
+
+
+STRING1		DCB 	"This is a test string1"	;string 1
+EoS		DCB 	0x00				;end of string 1
+
+STRING2		DCB 	"This is a test string2"	;string 2
+EoS2		DCB 	0x00				;end of string 2
+
+STRING3		space	0xFF				;third string for concatenation
+
+	END

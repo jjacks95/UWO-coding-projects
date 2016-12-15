@@ -1,0 +1,20 @@
+	AREA a4_question2, CODE, READONLY
+	ENTRY
+
+		ADR	r0,STRING1				;set pointer to string1
+		LDR	r1,CHECK				;load pointer with word to be checked
+		LDR	r2,EoS					;set counter to end of string to decrement
+
+Loop		CMP	r1,#0					;set counter to exit when 0
+NewS		CMPNE	r0,r1					;compare the word in the string to the check
+		ADD	r3,r3,r0				;add pointer from string if not equal to check
+		BEQ	NewS					;end compare and loop if r0 and r1 are equal
+		ADD	r0,r0,#4				;move pointer to next byte
+		SUBS	r1,r1,#1				;decrement counter from EoS
+		BNE	Loop
+			
+STRING1		DCB	"and the man said they must go"		;String1
+EoS		DCB	0x00					;end of string1
+STRING2		space	0xFF
+CHECK		DCB	"the"					;word to remove from string
+	END

@@ -1,0 +1,31 @@
+	AREA a5_question1, CODE, READONLY
+	ENTRY
+	
+	LDR	r1,=0x12341111					;load value into r1 to search for in linked list
+	ADR	r0,List						;point r0 to first node of linked list
+		
+Loop	LDR	r4,[r0]						;if not equal read the pointer in r
+	CMP	r4,#0						;check address of first node not to be null
+Exit	BEQ	Exit						;if reach a null address exit
+	MOVNE	r0,r4						;if not null set ro to data of first node in list
+	BNE	Search						;if not equal to null enter loop
+
+
+Search	CMP	r1,r0						;compare r1(check val) and r0 (first node)
+	MOVEQ	r2,#0xFFFFFFFF					;if equal set r2 to success value
+	MOVEQ	r3,r0						;and set r3 to address of node where value was found
+	LDRNE	r2,=0xF0F0F0F0					;if not equal set r2 to failure value
+	BNE	Loop						;if not equal take new node and check for null again				
+		
+Endless	B	Endless						;infinite loop
+
+								;data set
+List  	DCD 	0x12341111, Item5
+Item2 	DCD 	0x12342222, Item3
+Item3 	DCD 	0x12343333, Item4
+Item4 	DCD 	0x12344444, Item6
+Item5 	DCD 	0x12345555, Item2
+Item6 	DCD 	0x12346666, Item7
+Item7 	DCD 	0x12347777,  0x00				;terminator
+	
+	END
