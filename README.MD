@@ -17,7 +17,7 @@ Java<br />
 -CS268 - Assignment 0, 1, and 2<br />
 -CS272 - Assignment 1, and 2 Journal and Testing (Testing is mostly accumulated tools from web)<br />
 -CS2210 - Assignment 2, 4, and 5 <br />
--CS2212 - Stage 2 and 3 from Porject (Major Assignment)<br />
+-CS2212 - Stage 2 and 3 from Project (Major Assignment)<br />
 <br />
 Major Assignments<br />
 -CS2212 - Team 1 Fitbit Project<br />
